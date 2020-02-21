@@ -7,7 +7,7 @@ body {
   padding: 20px;
   box-sizing:border-box;
   background-color: #EFEFEF;
-  color: #707070;
+  color: #000000;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
@@ -24,7 +24,7 @@ a:visited {
 }
 
 a:hover {
-  color: #707070;
+  color: #1565c0;
 }
 
 a:active {
@@ -48,6 +48,14 @@ header .avatar img {
 header .avatarMask {
   clip-path: circle(48px at center);
   -webkit-clip-path: circle(48px at center);
+}
+
+header .author {
+  margin-bottom: 5px;
+}
+
+header .authorDegree {
+  margin-top: 5px;
 }
 
 /* Footer */
